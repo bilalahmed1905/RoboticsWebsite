@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Homepage</title>
+        <link>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <link>
+        <link rel="stylesheet" href="styleScripts/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                        <a class="navbar-item" href="home.html">
+                                <img src="./images/roboticsLogo.png" width="25" height="25">
+                                <p class="imgTxt">Manning <br> Robotics</p>
+                        </a>
+
+                        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                                data-target="navbarBasicExample">
+                                <span aria-hidden="true"></span>
+                                <span aria-hidden="true"></span>
+                                <span aria-hidden="true"></span>
+                        </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                        <div class="navbar-start">
+
+                        </div>
+                        <div class="navbar-end">
+                                <a class="navbar-item" href="home.html">
+                                        Home
+                                </a>
+                                <a class="navbar-item" href="about.html">
+                                        About
+                                </a>
+                                <a class="navbar-item" href="projects.html">
+                                        Projects
+                                </a>
+                                <a class="navbar-item" href="sponsors.html">
+                                        Sponsors
+                                </a>
+                                <a class="navbar-item" href="contact.html">
+                                        Contact
+                                </a>
+                        </div>
+                </div>
+        </nav>
+        <h1 class="titleC" style="text-align: center;">Contact Us</h1>
+               <div class="columns">
+                <div class="column">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20075.087450047464!2d-114.18455451750489!3d51.02749242358763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716de04a80524f%3A0xdac5afe84b70ec33!2sErnest%20Manning%20High%20School%20%7C%20Calgary%20Board%20of%20Education!5e0!3m2!1sen!2sca!4v1670281718758!5m2!1sen!2sca"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="column">
+                        <p class="descTxt"><b>Phone Number:</b> 403-437-4744</p>
+                        <p class="descTxt"><b>Emails: </b>manningrobotics@gmail.com, ajwada1@educbe.ca</p>
+                        <p class="descTxt"><b>Address: </b> 20 Springborough Blvd SW, Calgary, AB T3H 0N7</p>
+                        <p class="descTxt"><b>Business Hours: </b> Monday to Thursday 9:00am-6:00pm</p>
+                </div>
+                </div>
+        <div class="w3-card-4">
+                <div class="w3-container w3-blue" style="padding: 20px 20px;height: 12%;">
+                        <h2 class="is-1-mobile is-2-tablet is-3-desktop">Contact Form</h2>
+                </div>
+                <form id="contact" class="w3-container pageclip-form w3-light-grey"
+                        style="margin: 10px 10px;padding: 5px 5px;font-size: 16px;"
+                        action="" method="post">
+        
+                        <label style="color: black;">Full Name</label><br>
+                        <input id="ContactName" class="w3-input w3-border" name="Fullname" type="text"><br>
+        
+                        <label style="color: black;">Email</label><br>
+                        <input id="ContactEmail" class="w3-input w3-border" name="Email" type="email"><br>
+        
+                        <label style="color: black;" for="phoneNumber">Phone Number</label><br>
+                        <input id="phoneNumber" class="w3-input w3-border" name="phoneNumber" type="text"><br>
+        
+                        <label style="color: black;" for="msg">Message</label><br>
+                        <textarea id="qorc" class="textarea w3-border" name="msg"></textarea><br>
+                        <p style="font-size: 12px;" class="descTxt">We'll get back to you within 3-4 Business Days</p><br>
+                        <button type="submit" id="submit" class="pageclip-form__submit"><span>Send</span></button>
+                </form>
+        </div>
+        <!-- phone number: 403-437-4744 -->
+        <footer class="footer">
+                <div class="content has-text-centered">
+                        <p>
+                        <strong> Manning Robotics</strong> proudly created by Bilal Ahmed
+                        <p>© 2013-2022</p>
+                        </p>
+                </div>
+        </footer>
+        <script src="styleScripts/script.js"></script>
+</body>
+
+</html>
