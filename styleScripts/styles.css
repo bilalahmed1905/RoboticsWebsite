@@ -4,7 +4,7 @@
         /* padding: 10px 10px; */
         margin: 0px 10px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 15px;
+        font-size: 17px;
         color: white;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .heading {
-        font-size: 35px;
+        font-size: 44px;
         color: rgb(17, 22, 55);
         font-weight: bolder;
         font-family: "Kdam Thmor Pro", sans-serif;
@@ -53,7 +53,7 @@
 }
 
 .imgTxt {
-        font-size: 14px;
+        font-size: 18px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         margin: 5px 5px;
         color: rgb(17, 22, 55);
@@ -72,7 +72,7 @@
 
 .columnTxt {
         font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-size: 19px;
         text-align: left;
         padding: 10px 10px;
         margin: 9px 8px;
