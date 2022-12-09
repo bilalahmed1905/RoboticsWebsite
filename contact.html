@@ -75,7 +75,7 @@
                 <div class="w3-container w3-blue" style="padding: 20px 20px;height: 12%;">
                         <h2 class="is-1-mobile is-2-tablet is-3-desktop">Contact Form</h2>
                 </div>
-                <form id="contact" class="w3-container pageclip-form w3-light-grey"
+                <form id="contact" method="POST" data-netlify="true" class="w3-container pageclip-form w3-light-grey"
                         style="margin: 10px 10px;padding: 5px 5px;font-size: 16px;"
                         action="" method="post">
         
@@ -104,6 +104,25 @@
                 </div>
         </footer>
         <script src="styleScripts/script.js"></script>
+        <script>
+        const handleSubmit = (event) => {
+                        event.preventDefault();
+                        const myForm = event.target;
+                        const formData = new FormData(myForm);
+
+                        fetch("/", {
+                                method: "POST",
+                                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                                body: new URLSearchParams(formData).toString(),
+                        })
+                                .then(() => console.log("Form successfully submitted"))
+                                .catch((error) => alert(error));
+                };
+
+                document
+                        .querySelector("form")
+                        .addEventListener("submit", handleSubmit)
+        </script>
 </body>
 
 </html>
