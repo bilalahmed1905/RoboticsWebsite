@@ -24,8 +24,7 @@
 }
 
 .hero-image {
-        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-        background-image: url("/images/newPhoto.png");
+        background-image: url("/images/2022VictoriaPhoto.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -55,7 +54,6 @@
 }
 
 .text {
-
         /* top: 50%;
         right: 50%; */
         text-transform: uppercase;
