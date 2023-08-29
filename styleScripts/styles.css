@@ -13,6 +13,18 @@
         background-repeat: no-repeat;
 }
 
+.footerCol {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+}
+
+.footerItem {
+        margin: 20px 15px;
+        font-size: 30px;
+        text-align: center;
+}
+
 .banner:hover {
         box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
 }
