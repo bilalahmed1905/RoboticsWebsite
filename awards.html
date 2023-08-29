@@ -80,12 +80,16 @@
         Judges Award: 2014 Western Canada
         Rookie All Star Award: 2013 Western Canada
                  -->
-        <div id='awards'>
 
-        </div>
-        <div class="columns" id='awards'>
-
-        </div>
+        <!-- <div class="banner" style="color: white;">
+                <p class="centered">Autonomous Award </p>
+                <br>
+        </div> -->
+        <div id="awards"></div>
+        <div id="awards2"></div>
+        <div id="awards3"></div>
+        <div id="awards4"></div>
+        <div id="awards5"></div>
         <footer class="footer">
                 <div class="content has-text-centered">
                         <div class="footerCol">
@@ -133,10 +137,20 @@
                         "Industrial Safety Award: 2014 Western Canada",
                         "Judges Award: 2014 Western Canada",
                         "Rookie All Star Award: 2013 Western Canada"]
-                for (let i = 0; i < info.length - 12; i++) {
-                        $('#awards').prepend(`<div class="column"><div class="banner">${info[i]}</div></div>`).css(`background-image: url("../images/banner.png");min-height:;`)
-                } for (let i = 0; i < info.length - 12; i++) {
-                        $('#awards2').prepend(`<div class="column"><div class="banner">${info[i]}</div></div>`).css(`background-image: url("../images/banner.png");min-height:600px;`)
+                for (let i = 0; i < 4; i++) {
+                        $('#awards').prepend(`<div class="column"><div class="banner"><p class="centered">${info[i]}</p></div></div>`)
+                }
+                for (let i = 4; i < 8; i++) {
+                        $('#awards2').prepend(`<div class="column"><div class="banner"><p class="centered">${info[i]}</p></div></div>`)
+                }
+                for (let i = 8; i < 12; i++) {
+                        $('#awards3').prepend(`<div class="column"><div class="banner"><p class="centered">${info[i]}</p></div></div>`)
+                }
+                for (let i = 12; i < 16; i++) {
+                        $('#awards4').prepend(`<div class="column"><div class="banner"><p class="centered">${info[i]}</p></div></div>`)
+                }
+                for (let i = 16; i < 20; i++) {
+                        $('#awards5').prepend(`<div class="column"><div class="banner"><p class="centered">${info[i]}</p></div></div>`)
                 }
         </script>
         <script src="styleScripts/script.js"></script>
