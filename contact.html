@@ -16,44 +16,48 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
 </head>
 
 <body>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-                <div class="navbar-brand">
+<nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                        <img src="./images/roboticsLogo.png" width="25" height="25">
+                        <p class="imgTxt">Manning <br> Robotics</p>
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                        data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+
+                </div>
+                <div class="navbar-end">
                         <a class="navbar-item" href="index.html">
-                                <img src="./images/manning logo144_179.png">
-                                <p class="imgTxt">Manning <br> Robotics</p>
+                                Home
                         </a>
-
-                        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-                                data-target="navbarBasicExample">
-                                <span aria-hidden="true"></span>
-                                <span aria-hidden="true"></span>
-                                <span aria-hidden="true"></span>
+                        <a class="navbar-item" href="about.html">
+                                About
+                        </a>
+                        <!-- <a class="navbar-item" href="projects.html">
+                                Projects
+                        </a> -->
+                        <a class="navbar-item" href="awards.html">
+                                Awards
+                        </a>
+                        <a class="navbar-item" href="contact.html">
+                                Contact
                         </a>
                 </div>
-
-                <div id="navbarBasicExample" class="navbar-menu">
-                        <div class="navbar-start">
-
-                        </div>
-                        <div class="navbar-end">
-                                <a class="navbar-item" href="index.html">
-                                        Home
-                                </a>
-                                <a class="navbar-item" href="about.html">
-                                        About
-                                </a>
-                                <!-- <a class="navbar-item" href="projects.html">
-                                        Projects
-                                </a> -->
-                                <a class="navbar-item" href="contact.html">
-                                        Contact
-                                </a>
-                        </div>
-                </div>
-        </nav>
+        </div>
+</nav>
         <h1 class="titleC" style="text-align: center;">Contact Us</h1>
                <div class="columns">
                 <div class="column">
@@ -62,8 +66,8 @@
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="column">
-                        <p class="descTxt"><b>Phone Number:</b> 403-437-4744</p>
-                        <p class="descTxt"><b>Emails: </b>manningrobotics@gmail.com, ajwada1@educbe.ca</p>
+                        <p class="descTxt"><b>Phone Number:</b> 403-862-6011</p>
+                        <p class="descTxt"><b>Emails: </b>manningrobotics@gmail.com, rmmcmanus@cbe.ab.ca</p>
                         <p class="descTxt"><b>Address: </b> 20 Springborough Blvd SW, Calgary, AB T3H 0N7</p>
                         <p class="descTxt"><b>Business Hours: </b> Monday to Thursday 9:00am-6:00pm</p>
                 </div>
@@ -78,6 +82,7 @@
                 </div>
         </footer>
         <script src="styleScripts/script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
         <script>
         const handleSubmit = (event) => {
                         event.preventDefault();

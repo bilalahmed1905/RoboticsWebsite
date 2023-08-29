@@ -1,11 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
 
 .navbar-item {
-        /* padding: 10px 10px; */
         margin: 0px 10px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 17px;
         color: white;
+}
+
+.banner {
+        background-image: url("../images/banner.png");
+        min-height: 700px;
+        background-repeat: no-repeat;
+}
+
+.banner:hover {
+        box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
 }
 
 .navbar-menu {
@@ -30,6 +39,7 @@
         background-size: cover;
         position: relative;
         padding: 10px 10px;
+        min-height: 800px;
 }
 
 /* Place text in the middle of the image */
@@ -100,7 +110,17 @@
         font-size: 19px;
         text-align: left;
         padding: 10px 10px;
-        margin: 9px 8px;
+        margin: 19px 8px;
+}
+
+
+.center {
+        text-align: center;
+}
+
+.black {
+        background-color: black;
+        margin-top: 8px;
 }
 
 .columnY {
@@ -127,4 +147,20 @@
         height: 100px;
         text-align: center;
         background-color: skyblue;
+}
+
+.timeline {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        background-color: skyblue;
+        padding: 10px 10px;
+        list-style-type: none;
+
+}
+
+.timeline:hover {
+        color: rgb(15, 69, 219);
+        text-shadow: grey 1px 1px;
+
 }
