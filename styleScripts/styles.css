@@ -7,6 +7,14 @@
         color: white;
 }
 
+.img:hover {
+        background-color: none !important;
+}
+
+.fa-brands {
+        color: black;
+}
+
 .banner {
         background-image: url("/images/banner.svg");
         background-size: 200px;
@@ -56,8 +64,8 @@
 }
 
 .navbar-item:hover {
-        background-color: rgb(17, 22, 55);
-        opacity: 0.2;
+        background-color: rgb(17, 22, 55) !important;
+        color: rgb(227, 209, 11) !important;
 }
 
 .hero-image {
@@ -115,8 +123,22 @@
                 1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
+.fa-youtube:hover {
+        color: red
+}
+
+.fa-instagram:hover {
+        color: violet;
+}
+
+.fa-tiktok:hover {
+        color: turquoise;
+}
+
 .imgTxt {
-        font-size: 18px;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         margin: 5px 5px;
         color: rgb(255, 255, 255);
