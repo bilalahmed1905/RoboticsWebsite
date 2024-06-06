@@ -69,13 +69,14 @@
 }
 
 .hero-image {
-        background-image: url("/images/2022VictoriaPhoto.png");
+        background-image: url("/images/2024VictoriaPhoto.JPG");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
         padding: 10px 10px;
-        min-height: 800px;
+        min-height: 600px;
+
 }
 
 /* Place text in the middle of the image */

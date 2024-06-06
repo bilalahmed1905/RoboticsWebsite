@@ -59,6 +59,7 @@
                 </div>
         </nav>
         <!-- 
+       " Excellence in Engineering Award: 2024 Canadian Pacific"
         Autonomous Award: 2023 Canadian Pacific
         Creativity Award: 2022 Canadian Pacific
         Entrepreneurship Award: 2020 Canadian Pacific
@@ -90,6 +91,7 @@
         <div id="awards3"></div>
         <div id="awards4"></div>
         <div id="awards5"></div>
+        <div id="awards6"></div>
         <footer class="footer">
                 <div class="content has-text-centered">
                         <div class="footerCol">
@@ -119,7 +121,7 @@
         <script src="https://code.jquery.com/jquery-3.7.0.min.js"
                 integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
         <script>
-                let info = ["Autonomous Award: 2023 Canadian Pacific",
+                let info = ["Excellence in Engineering Award: 2024 Canadian Pacific", "Autonomous Award: 2023 Canadian Pacific",
                         "Creativity Award: 2022 Canadian Pacific",
                         "Entrepreneurship Award: 2020 Canadian Pacific",
                         "Creativity Award: 2019 Canadian Rockies",
@@ -153,6 +155,9 @@
                 }
                 for (let i = 16; i < 20; i++) {
                         $('#awards5').append(`<div class="column"><div class="banner"><p class="centered">${info[i]}</p></div></div>`)
+                }
+                for (let i = 20; i < 21; i++) {
+                        $('#awards6').append(`<div class="column"><div class="banner"><p class="centered">${info[i]}</p></div></div>`)
                 }
         </script>
         <script src="styleScripts/script.js"></script>
